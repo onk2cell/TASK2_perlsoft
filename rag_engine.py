@@ -5,7 +5,6 @@ import os
 from decouple import config
 
 # Load the API key from the environment variable
-api_key = config('API_KEY')
 import streamlit as st
 from PyPDF2 import PdfReader
 from langchain.embeddings.openai import OpenAIEmbeddings
@@ -24,7 +23,7 @@ st.set_page_config(page_title="PDF Text Extraction")
 
 # Create a Streamlit file uploader
 uploaded_file = st.file_uploader("Upload a PDF file", type=["pdf"])
-
+api_key = st.text_input("Enter a question the api openai api key")
 # Check if a file is uploaded
 if uploaded_file is not None:
     # Read the uploaded PDF file
