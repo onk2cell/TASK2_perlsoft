@@ -6,7 +6,7 @@ unstructured[pdf]
 openai
 chromadb
 tiktoken
-decouple==3.6
+decouple
 PyPDF2==1.26.0
 numpy==1.21.2
 scikit-learn==0.24.2
