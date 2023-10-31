@@ -1,11 +1,10 @@
 
 
-
+import streamlit as st
 import os
 from decouple import config
 
 # Load the API key from the environment variable
-import streamlit as st
 from PyPDF2 import PdfReader
 from langchain.embeddings.openai import OpenAIEmbeddings
 from langchain.text_splitter import CharacterTextSplitter
