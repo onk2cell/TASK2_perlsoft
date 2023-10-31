@@ -10,3 +10,4 @@ decouple
 PyPDF2
 numpy
 scikit-learn
+faiss-cpu
