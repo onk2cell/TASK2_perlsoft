@@ -2,7 +2,7 @@
 
 import streamlit as st
 import os
-from decouple import config
+#from decouple import config
 
 # Load the API key from the environment variable
 from PyPDF2 import PdfReader
