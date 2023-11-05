@@ -1,6 +1,6 @@
 # PDF Text Extraction and Question-Answering Web Application
 
-This is a web application built using Streamlit that allows users to upload a PDF file, extract its text, and ask questions about the content using OpenAI's GPT-3 for question-answering.
+This is a web application built using Streamlit that allows users to upload a PDF , CSV  file, extract its text, and ask questions about the content using OpenAI's GPT-3 for question-answering.
 
 ## Getting Started
 
