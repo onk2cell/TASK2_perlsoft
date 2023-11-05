@@ -10,8 +10,8 @@ These instructions will help you set up and run the application on your local ma
 
 Before you start, ensure you have the following installed:
 
-- Python (version X.X.X)
-- Pip (version X.X.X)
+- Python 
+- Pip 
 
 ### Installation
 
